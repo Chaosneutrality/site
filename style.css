@@ -1,0 +1,758 @@
+*{  text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+    box-sizing: border-box;
+    outline: 0;
+}
+
+li{
+    float: left;
+}
+
+a{
+    color: black;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.navtop{
+    height: 31px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+.navtop a:hover{
+    color: #ae1a15;
+}
+.fl,.fr{
+    text-align: center;
+    
+}
+.fl a,.fr a,.fl>span{
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 5px;
+    color: #666966;
+
+}
+.fl .freezhuce{
+   color: red;
+}
+.fr .icon-downarrow{
+    font-weight: 700 ;
+}
+
+.fr div:nth-of-type(n){
+    margin-top: 9px;
+    margin-left: 9px;
+    height: 12px;
+    width: 1px;
+    background-color: #666966;
+    
+    display: inline-block;
+    
+}
+.header{
+    position: relative;
+    background-color: rgb(253, 210, 209);
+    height: 100px;
+}
+ .logo,.search,.shopcar,.hotword{
+    position: absolute;
+}
+.header .logo {
+    left: 30px;
+    top: 15px;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    background-color: burlywood;
+
+}
+.logo a{
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    background-image: url(images/bilibili.png)  ;
+}
+
+input[type="search"],input[type="search"]:hover{
+
+    border:2px solid pink;
+    left:250px;
+    top:15px;
+    height: 35px;
+    width: 500px;
+    padding-left: 1em;
+}
+.searching{
+    position: relative;
+}
+button[id="search"]{
+    position: absolute;
+    left: 700px;
+    top: 15px;
+    height: 35px;
+    width: 50px;
+    background-color: #ae1a15;
+    color: #f1f1f1;
+    border: 1px solid pink;
+}
+
+.hotword{
+    top: 55px;
+    left: 260px;
+}
+
+.hotword ul li{
+    font-size: 12px;
+    color: #666966;
+    margin-right: 25px;
+}
+.hotword ul li a:hover{
+    color: red;
+}
+.hotword .first{
+    color: red;
+}
+.shopcar{
+    left: 890px;
+    top: 15px;
+    height: 35px;
+    width: 150px;
+    
+
+}
+.icon-gouwuchetianjia{
+    margin-right: 10px;
+    color: #ae1a15;
+    font-size: 20px;
+    /* float: left; */
+   
+    
+    
+}
+.shopcar .mycar{
+    height: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    height: 14px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 7px 7px 7px 0;
+    top: -15px;
+    right: -10px;
+}
+
+.secondnav{
+    height: 50px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid   pink ;
+    border-right: 2px solid   pink ;
+    position: relative;
+
+}
+
+.secondnav .leftnav{
+    position: absolute; 
+    background-color: pink;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding:13px ;
+}
+.secondnav .rightnav{
+    left: 200px;
+    position: absolute; 
+    width: 800px;
+    height: 50px;
+    margin-left: 30px;
+    
+}
+.rightnav a{
+    display: inline-block;
+    color: #000;
+    padding-top: 13px;
+    padding-left: 35px;
+    font-size: 15px;
+    
+}
+
+.leftnav .dd{
+   margin-top: 15px;
+   background-color: #fdd2d1;
+   width: 200px;
+   position: absolute;
+   left: 0px;
+   height: 400px;
+   top:35px;
+   /* display: none; */
+  
+}
+
+
+.dd .menu li {
+   float: none;
+   height: 36px;
+   width: 175px;
+  margin-left: 2px;
+   
+}
+.menu a{
+    display: block;
+    color: #fff;
+    height: 100%;
+    width: 110%;
+    padding-top: 8px;
+    font-size: 15px; 
+   
+}
+.menu a::after{
+    float: right;
+    content: ">";
+}
+
+.menu a:hover{
+    color: #fdd2d1;
+    background-color: #fff;
+}
+
+.rightnav a:hover{
+    color: pink;
+}
+
+.footer{
+    height: 415px;
+    background-color: #f5f5f5;
+}
+.c1{
+    margin-top: 30px;
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+    background: url(images/精灵图.png) no-repeat;
+}
+.c1 ul li{
+    
+    width: 240px;
+    height: 50px;
+}
+.c1 ul li h4{
+    font-size: 14px;
+}
+.c1 ul li p{
+    font-size: 12px;
+}
+.c2{
+    position: relative;
+    
+    height: 180px;
+    border-bottom: 2px solid #ccc;
+}
+.c2 ul .title{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.c2 ul li{
+    margin-top: 5px;
+    float: none;
+    margin-left: 32px;
+    font-size: 10px;
+}
+.c3{
+    height: 150px;
+}
+.c2 ul{
+    float: left;
+    margin-right: 160px;
+}
+.c2 .help{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+
+}
+.c2 .help{
+    text-align: center;
+}
+.c2 .help .helpcenter{
+    margin-bottom: 8px;
+}
+.c2 .help .kehuduan{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.c2 ul li a:hover{
+    color: pink;
+}
+
+.c3 p{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #918883;
+}
+.c3 .last{
+    margin-top: 0;
+}
+
+.main{
+   
+    margin-left: 200px;
+    height: 400px;
+    
+}
+.picture{
+    position: relative;
+    width: 730px;
+    float: left;
+  
+    height: 390px;
+    margin: 10px;
+    background: url(../女友的照片/姜濯.png) ;
+    transition: all 1s;
+}
+.picture:hover{
+    background-position: -50px 0px;
+}
+
+.leftside,.rightside{
+    position: absolute;
+    background: rgba(0, 0, 0,0.2);
+    border: 0;
+    width: 30px;
+    height: 50px;
+    top: 145px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.rightside{
+   left: 700px;
+}
+
+
+.news{
+    width: 250px;
+    float: left;
+    
+    margin-top: 10px;
+    height: 390px;
+}
+
+.more{
+    border-top: 1px solid #cccccc;
+    height: 35px;
+    line-height: 34px;
+    border-bottom: 1px dotted #cccccc;
+    padding-left: 10px;
+    color: #918883;
+}
+.moreandmore{
+    font-size: 12px;
+    float: right;
+    margin-right: 15px;
+}
+.flash ul li a{
+    color: #918883;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.flash ul li{
+    margin-top: 5px;
+}
+.flash ul li a:hover{
+    color: pink;
+}
+
+.flight{
+  
+    margin-top: 140px;
+    border: 1px solid #cccccc;
+    height: 130px;
+}
+
+.flight img[class^="p"]{
+   width: 123px;
+   height: 64px;
+   
+   float: left;
+}
+.p1{
+    background-image: url(../女友的照片/凉子同学.png);
+}
+.p2{
+    background: url(../女友的照片/清和.png);
+}
+.p3{
+    background: url(../女友的照片/混网学妹.png);
+}
+.p4{
+    background: url(../女友的照片/姜濯.png);
+}
+
+.buttonpic{
+    
+    height: 83px;
+    background: url(../女友的照片/春日野樱.jpg);
+    width: 249px;
+}
+.news{
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+.tody{
+    position: relative;
+    /* background: #ae1a15; */
+    height: 170px;
+    margin-top: 10px;
+}
+.todylogo{
+    position: absolute;
+    height: 100%;
+    width: 17%;
+   background-color: pink;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fdd2d1;
+    transition: all 1s;
+}
+.todylogo:hover{
+   color: red;
+   font-size: 80px;
+}
+
+.like{
+    font-size: 16px;
+    color: rosybrown;
+
+}
+.luv{
+    position: absolute;
+    left: 204px;
+    background: #fff;
+    height: 100%;
+    width: 997px;
+}
+
+div[class^="love"]{
+    float: right;
+    height: 100%;
+    width: 249px;
+    
+}
+.love2{
+    margin-right: 56px;
+}
+.love1{
+    margin-right: -55px;
+}
+
+div[class^="love"] img{
+    height: 100%;
+}
+.home{
+    margin-top: 30px;
+    
+}
+.bigred{
+   border-bottom: 2px solid #c81623;
+    height: 40px;
+    
+}
+.bigred h3{
+    line-height: 45px;
+    color: #c81623;
+    height: 100%;
+    float: left;
+}
+.bigred ul{
+    height: 100%;
+    
+    width: 1100px;
+    float: right;
+}
+.bigred ul li a{
+    font-size: 12px;
+    color: #bad0df;
+    margin-top: 16px;
+    display: inline-block;
+}
+.bigred ul li{
+    float: right;
+    margin-right: 10px;
+    height: 100%;
+    
+}
+.bigred ul li a:hover{
+    color: pink;
+}
+.bigred ul li a{
+    padding-right: 15px;
+    border-right: 1px solid #cccccc;
+}
+.bigred ul li .finally_a{    
+    border: none;
+}
+.bigpic{
+    margin-top: 1px;
+    
+    height: 400px;
+}
+.one{
+    width:300px;
+    height: 320px;
+    float: left;
+    
+}
+.text div{
+    width: 130px;
+    float: left;;
+    height: 40px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 10px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 13px;
+    cursor:pointer;
+
+}
+.text div:hover{
+    color: pink;
+}
+.text{
+    height: 40%;
+}
+
+.TV{
+    height: 271px;
+    width: 100%;
+   
+}
+.TV img{
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+.two{
+    width: 410px;
+    height: 399px;
+    float: left;
+    background: url(images/jk2.png);
+   transition: all 0.5s;
+
+
+}
+.two:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #253148;
+}
+.TV img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #566796;
+}
+
+.three{
+    float: left;
+    height: 399px;
+    width: 488px;
+   
+}
+.threefirst{
+    float: left;
+    height: 399px;
+    width: 200px;
+    
+}
+ .topfirst{
+     float: left;;
+     width: 200px;
+    height: 197px;
+    display: block;
+    background: url(images/jk1top.png);
+    
+}
+.buttomfirst{
+    float: left;
+    height: 202px;
+    width: 200px;
+    display:block;
+    background: url(images/jk1buttom.png);
+  
+}
+.topfirst:hover,.buttomfirst:hover{
+    box-shadow: 0 0 10px #929bbd;
+}
+.threelast{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.threelast img{
+    transition: all 0.5s;
+    height: 399px;
+    animation-name:临门一脚;
+    animation-duration: 3s;
+    
+
+}
+
+@keyframes 临门一脚{
+    0%{
+        transform:translate(-1000px,-800px) scale(1);
+        /* 左上角 */
+     }
+     25%{
+         transform: translate(0,-800px) scale(1.2);
+         /* 右上角 */
+     }
+     40%{
+      
+        transform: translate(0,-500px) scale(1.4);
+        
+        /* 右下角 */
+     }
+     60%{
+   
+        transform: translate(-1000px,-500px) scale(1.6);
+        /* 左下角 */
+     }
+
+    90%{
+        transform: translate(-400px,-650px) scale(1.8);
+    }
+
+     100%{
+         transform: translate(0,0) scale(1);   
+         /* 回去 */
+     } 
+
+}
+
+
+.threelast img:hover{
+    transform: scale(1.1,1.1);
+    animation-play-state: paused;
+    box-shadow: 0 0 10px pink;
+}
+.topfirst,.buttomfirst{
+    transition: all 0.5s;
+}
+
+.topfirst:hover,.buttomfirst:hover{
+   transform: scale(1.1,1.1);
+}
+
+div[class^="love"] img{
+    transition: all 0.5s;
+    animation-timing-function :linear;
+}
+div[class^="love"] img:hover{
+    transform: scale(1.1,1.1);
+    
+}
+@keyframes love4{
+    0%{
+        transform:translate(-100px,-500px) scale(1);
+        /* 左上角 */
+     }
+     25%{
+        transform: translate(500px,0) scale(1.5);
+         /* 右上角 */
+     }
+     50%{
+      
+        
+        transform: translate(500px,-500px) scale(1.5);
+        
+        /* 右下角 */
+     }
+     70%{
+   
+        transform: translate(0,100px) scale(1.5);
+        /* 左下角 */
+     }
+
+     100%{
+         transform: translate(0,0) scale(1);   
+         /* 回去 */
+     } 
+
+}
+@keyframes love3{
+    0%{
+        transform: translate(500px,-500px) scale(1.5);
+        /* 左上角 */
+     }
+     25%{
+        transform: translate(500px,0) scale(1.5);
+         /* 右上角 */
+     }
+     50%{
+        transform: translate(0,100px) scale(1.5);
+        
+        /* 右下角 */
+     }
+     70%{
+      
+        transform:translate(-100px,-500px) scale(1);
+        
+        /* 左下角 */
+     }
+
+     100%{
+         transform: translate(0,0) scale(1);   
+         /* 回去 */
+     } 
+
+}
+@keyframes love2{
+    0%{
+        transform: translate(500px,-500px) scale(1.5);
+        /* 左上角 */
+     }
+     25%{
+        
+        transform: translate(0,0) scale(1);
+         /* 右上角 */
+     }
+     50%{
+        transform: translate(0,100px) scale(1.5) ;
+        
+        /* 右下角 */
+     }
+     70%{
+        transform:translate(-100px,-500px) scale(1) ;
+     } 
+     100%{
+         transform: translate(0,0);
+     }
+
+}
+
+.love4 img{
+    animation-name:love4;
+    animation-duration: 4s;
+}
+.love3 img{
+    animation-name:love3;
+    animation-duration: 3s;
+}
+.love2 img{
+    animation-name:love2;
+    animation-duration: 2.5s;
+}
