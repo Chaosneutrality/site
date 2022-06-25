@@ -80,7 +80,7 @@ a{
     display: inline-block;
     width: 140px;
     height: 60px;
-    background-image: url(images/bilibili.png)  ;
+    background-image: url(https://s2.loli.net/2022/06/25/Cuw2LUm1bNf7Xzl.png)  ;
 }
 
 input[type="search"],input[type="search"]:hover{
@@ -241,7 +241,7 @@ button[id="search"]{
     margin-top: 30px;
     height: 80px;
     border-bottom: 2px solid #ccc;
-    background: url(images/精灵图.png) no-repeat;
+    background: url(https://s2.loli.net/2022/06/25/4eMqromGXaSWyuA.png) no-repeat;
 }
 .c1 ul li{
     
@@ -322,7 +322,7 @@ button[id="search"]{
   
     height: 390px;
     margin: 10px;
-    background: url(../女友的照片/姜濯.png) ;
+    background: url(https://s2.loli.net/2022/06/25/Go9gS1EYPOsFknp.png) ;
     transition: all 1s;
 }
 .picture:hover{
@@ -392,22 +392,22 @@ button[id="search"]{
    float: left;
 }
 .p1{
-    background-image: url(../女友的照片/凉子同学.png);
+    background-image: url(https://s2.loli.net/2022/06/25/LHncAOjdho7DQrT.png);
 }
 .p2{
-    background: url(../女友的照片/清和.png);
+    background: url(https://s2.loli.net/2022/06/25/JD8FMKGEy6gINsb.png);
 }
 .p3{
-    background: url(../女友的照片/混网学妹.png);
+    background: url(https://s2.loli.net/2022/06/25/MmrwLGtl8OWpciy.png);
 }
 .p4{
-    background: url(../女友的照片/姜濯.png);
+    background: url(https://s2.loli.net/2022/06/25/Go9gS1EYPOsFknp.png);
 }
 
 .buttonpic{
     
     height: 83px;
-    background: url(../女友的照片/春日野樱.jpg);
+    background: url(https://s2.loli.net/2022/06/25/JTXQzOtGjfwkNp4.jpg);
     width: 249px;
 }
 .news{
@@ -552,7 +552,7 @@ div[class^="love"] img{
     width: 410px;
     height: 399px;
     float: left;
-    background: url(images/jk2.png);
+    background: url(https://s2.loli.net/2022/06/25/cCsB2lrYFbQvpLE.png);
    transition: all 0.5s;
 
 
@@ -583,7 +583,7 @@ div[class^="love"] img{
      width: 200px;
     height: 197px;
     display: block;
-    background: url(images/jk1top.png);
+    background: url(https://s2.loli.net/2022/06/25/F9nmil3RxjfLOUJ.png);
     
 }
 .buttomfirst{
@@ -591,7 +591,7 @@ div[class^="love"] img{
     height: 202px;
     width: 200px;
     display:block;
-    background: url(images/jk1buttom.png);
+    background: url(https://s2.loli.net/2022/06/25/6XgaU5krR9cCuKH.png);
   
 }
 .topfirst:hover,.buttomfirst:hover{
